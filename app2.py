@@ -20,7 +20,7 @@ app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode='eventlet', logger=False, engineio_logger=False)
 
 # تحميل الموديل
-MODEL_PATH = './Sign2Text/rf.pkl'
+MODEL_PATH = './rf.pkl'
 model_en = None
 
 try:
